@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://10.36.142.215:3306/user
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:com/qf/dao/mapper/*.xml
+  type-aliases-package: com.qf.entiy
